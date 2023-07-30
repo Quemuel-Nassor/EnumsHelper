@@ -2,6 +2,41 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageId>enum-helper</PackageId>
+    <Title>Dotnet.EnumHelper</Title>
+    <Authors>Quemuel Nassor</Authors>
+    <Company>GitHub</Company>
+    <Product>EnumHelperPkg</Product>
+    <Description>Tool to assist in searching for enumeration annotation attributes</Description>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/Quemuel-Nassor/EnumsHelper</RepositoryUrl>
+    <PackageTags>ASP.NET Core</PackageTags>
+    <PackageReleaseNotes>Added source code
+Added project files</PackageReleaseNotes>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <PackageIcon>enum-helper-logo.png</PackageIcon>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Version>1.0.0</Version>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE.txt">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="enum-helper-logo.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
