@@ -12,7 +12,7 @@ This is tool to assist in searching for enumeration attributes
 [.NET Standard 2.0](https://learn.microsoft.com/pt-br/dotnet/standard/net-standard?tabs=net-standard-2-0)
 
 ## Installation
-To install and use this tool, you will need to install the [nuget package](https://www.nuget.org/packages/enum-helper) and register the service in your application settings.
+To install and use this tool, you only will need to install the [nuget package](https://www.nuget.org/packages/enum-helper)
 
 ## Samples
 
