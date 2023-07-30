@@ -42,13 +42,16 @@ public enum PremiationPositionEnum
 
 Console.WriteLine($"Position: {PremiationPositionEnum.First} - " +
     $"Description: '{PremiationPositionEnum.First.GetDescription()}' - " +
-    $"Medal: '{PremiationPositionEnum.First.GetColor("Golden")}'/'{PremiationPositionEnum.First.GetColor("AnotherGolden")}'");
+    $"Medal: '{PremiationPositionEnum.First.GetColor("Golden")}'/"+
+    $"'{PremiationPositionEnum.First.GetColor("AnotherGolden")}'");
 Console.WriteLine($"Position: {PremiationPositionEnum.Second} - " +
     $"Description: '{PremiationPositionEnum.Second.GetDescription()}' - " +
-    $"Medal: '{PremiationPositionEnum.Second.GetColor("Silver")}'/'{PremiationPositionEnum.Second.GetColor("AnotherSilver")}'");
+    $"Medal: '{PremiationPositionEnum.Second.GetColor("Silver")}'/"+
+    $"'{PremiationPositionEnum.Second.GetColor("AnotherSilver")}'");
 Console.WriteLine($"Position: {PremiationPositionEnum.Third} - " +
     $"Description: '{PremiationPositionEnum.Third.GetDescription()}' - " +
-    $"Medal: '{PremiationPositionEnum.Third.GetColor("Bronze")}'/'{PremiationPositionEnum.Third.GetColor("AnotherBronze")}'");
+    $"Medal: '{PremiationPositionEnum.Third.GetColor("Bronze")}'/"+
+    $"'{PremiationPositionEnum.Third.GetColor("AnotherBronze")}'");
 
 /*output:
 Position: First - Description: 'First Place' - Medal: '#ffd700'/'#ffd701'
