@@ -2,7 +2,7 @@
 
 [About](#about) | [Technology](#technology) | [Installation](#installation) | [Samples](#samples)
 
-[![NuGet](https://img.shields.io/nuget/v/enum-helper?style=flat)](https://www.nuget.org/packages/dotnet-directory-files-utility) [![GitHub](https://img.shields.io/github/license/quemuel-nassor/EnumsHelper?color=green&style=flat)](https://github.com/Quemuel-Nassor/EnumsHelper/blob/master/LICENSE.txt) [![Nuget](https://img.shields.io/nuget/dt/enum-helper?color=informational&style=flat)](https://www.nuget.org/packages/enum-helper)
+[![NuGet](https://img.shields.io/nuget/v/enum-helper?style=flat)](https://www.nuget.org/packages/enum-helper) [![GitHub](https://img.shields.io/github/license/quemuel-nassor/EnumsHelper?color=green&style=flat)](https://github.com/Quemuel-Nassor/EnumsHelper/blob/master/LICENSE.txt) [![Nuget](https://img.shields.io/nuget/dt/enum-helper?color=informational&style=flat)](https://www.nuget.org/packages/enum-helper)
 
 ## About
 This is tool to assist in searching for enumeration attributes
