@@ -38,7 +38,7 @@ namespace EnumsHelper
         /// </summary>
         /// <typeparam name="TEnum">Enum type</typeparam>
         /// <param name="value">Enum value</param>
-        /// <param name="name"></param>
+        /// <param name="name">Color name</param>
         /// <returns>Data annotation value from the TEnum type color</returns>
         public static string GetColor<TEnum>(this TEnum value, string name) where TEnum : struct, Enum
         {
